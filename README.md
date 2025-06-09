@@ -87,9 +87,9 @@ Result: USB and external drives are disabled for all users in the **Accounts OU*
 - **Linked to**: OU: IT Department
 - **Policy Configured**:
   - `Computer Configuration` > `Administrative Templates` > `System` > `Removable Storage Access`
-  - Set **"All Removable Storage classes: Deny all access"** to **Enabled**
+  - Set **" Remove and prevent all access to shutdown Storage, restart and hibernate commands"** to **Enabled**
 
-Result: USB and external drives are disabled for all users in the **Accounts OU**.
+Result:commans disabled for all users in the **HR and IT OU**
 ---
 
 ## Screenshots
