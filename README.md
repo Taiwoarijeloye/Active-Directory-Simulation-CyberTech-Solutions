@@ -98,6 +98,7 @@ Result:commans disabled for all users in the **HR and IT OU**
 - [GPO Editor Screenshot](https://github.com/Taiwoarijeloye/Active-Directory-Simulation-CyberTech-Solutions/blob/main/Screenshots/Group_policy_mamanagment.png)
 - [PC joined to domain](https://github.com/Taiwoarijeloye/Active-Directory-Simulation-CyberTech-Solutions/blob/main/Screenshots/window_machine_connection.png)
 - [Result of denied shutdown command access](https://github.com/Taiwoarijeloye/Active-Directory-Simulation-CyberTech-Solutions/blob/main/Screenshots/Access_denied.png)
+- [Result of denied shutdown command access on windows7](https://github.com/Taiwoarijeloye/Active-Directory-Simulation-CyberTech-Solutions/blob/main/Screenshots/logoff-window7.png)
 
 ---
 
