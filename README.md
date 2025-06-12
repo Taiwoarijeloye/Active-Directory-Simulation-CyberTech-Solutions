@@ -42,7 +42,7 @@ Server  PC1 (Win 8)   PC2 (Win 7)
 |---------------|----------------|-----------------------------|
 | Windows Server| 10.0.5.5  | AD Domain Controller (DC)   |
 | Windows 8 PC  | DHCP    | Client (Accounts)           |
-| Windows XP PC | DHCP    | Legacy Client               |
+| Windows 7 PC | DHCP    | Legacy Client               |
 
 ---
 
@@ -50,7 +50,7 @@ Server  PC1 (Win 8)   PC2 (Win 7)
 
 - **Domain Name**: `cybertech.local`
 - **Server Name**: `CYBERTECH`
-- **Static IP**: `10.0.5.4`
+- **Static IP**: `10.0.5.5`
 - **AD Roles Installed**: AD DS, DNS (DHCP)
 
 ---
@@ -84,7 +84,7 @@ Created and linked using **Group Policy Management Console (gpmc.msc)**:
 Result: USB and external drives are disabled for all users in the **Accounts OU**.
 
 - **GPO Name**: `DisablePoweroffRestartoptions`
-- **Linked to**: OU: IT Department
+- **Linked to**: OU: HR Department
 - **Policy Configured**:
   - `Computer Configuration` > `Administrative Templates` > `System` > `Removable Storage Access`
   - Set **" Remove and prevent all access to shutdown Storage, restart and hibernate commands"** to **Enabled**
